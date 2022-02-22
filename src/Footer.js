@@ -1,11 +1,8 @@
 
-export const Footer = () => {
-
-const today = new Date();
-    
+export const Footer = ({length}) => {
   return (
    <footer>
-       <p> Copyright &copy; {today.getFullYear()}</p>
+      <p>{length} List {length ===1 ? "item" : "items"}</p>
    </footer>
   )
 }
