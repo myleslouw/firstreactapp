@@ -59,9 +59,9 @@ const Content = () => {
                         role="button" 
                         tabIndex="0"
                       />
-
                 </li>
               ))}
+
             </ul>
         ) : (
           <p style={{marginTop: '2rem'}}> Your List is empty</p>
